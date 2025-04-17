@@ -79,10 +79,10 @@ public class RegisterActivity extends AppCompatActivity {  // 类名修改
             }
         }
 
-        private boolean isUserExists(Connection conn, String uname) throws SQLException {
-            String sql = "SELECT uname FROM userInfo WHERE uname = ?";
+        private boolean isUserExists(Connection conn, String username) throws SQLException {
+            String sql = "SELECT username FROM userinfo WHERE username = ?";
             try (PreparedStatement stmt = conn.prepareStatement(sql)) {
-                stmt.setString(1, uname);
+                stmt.setString(1, username);
                 try (ResultSet rs = stmt.executeQuery()) {
                     return rs.next();
                 }
@@ -90,7 +90,7 @@ public class RegisterActivity extends AppCompatActivity {  // 类名修改
         }
 
         private void insertNewUser(Connection conn, String uname, String psw) throws SQLException {
-            String sql = "INSERT INTO userInfo(uname, psw) VALUES (?, ?)";
+            String sql = "INSERT INTO userinfo(username, password) VALUES (?, ?)";
             try (PreparedStatement stmt = conn.prepareStatement(sql)) {
                 stmt.setString(1, uname);
                 stmt.setString(2, psw);

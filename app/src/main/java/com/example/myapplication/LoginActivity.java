@@ -63,7 +63,7 @@ public class LoginActivity extends AppCompatActivity {
             String password = params[1];
 
             try (Connection conn = PostgreSqlUtil.openConnection()) {
-                String sql = "SELECT id FROM users WHERE username = ? AND password = crypt(?, password)";
+                String sql = "SELECT id FROM userinfo WHERE username = ? AND password = crypt(?, password)";
                 try (PreparedStatement stmt = conn.prepareStatement(sql)) {
                     stmt.setString(1, username);
                     stmt.setString(2, password);
