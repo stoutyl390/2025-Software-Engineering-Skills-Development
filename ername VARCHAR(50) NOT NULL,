@@ -1,0 +1,24 @@
+[33mcommit 7e023b0c392c7c103d145ddfe350583bfc986501[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Merge: dcff0cd 0693ca9
+Author: du-binqiang <1935657730@qq.com>
+Date:   Tue Apr 15 00:40:02 2025 +0800
+
+    Merge branch 'main' of https://github.com/stoutyl390/2025-Software-Engineering-Skills-Development
+
+[33mcommit dcff0cd81326dcc43b545aafb43cd55e8bb6a25f[m
+Author: du-binqiang <1935657730@qq.com>
+Date:   Tue Apr 15 00:31:35 2025 +0800
+
+    Initial commit
+
+[33mcommit 0693ca9618f218c2756ff0c1f8da5aa8d4cdc2e6[m
+Author: stoutyl390 <167211378+stoutyl390@users.noreply.github.com>
+Date:   Mon Apr 14 21:56:20 2025 +0800
+
+    Update README.md
+
+[33mcommit c05f3efd1ca3e9dd51e79ab9891bc9d87114ecde[m
+Author: stoutyl390 <167211378+stoutyl390@users.noreply.github.com>
+Date:   Mon Apr 14 21:49:00 2025 +0800
+
+    Initial commit
