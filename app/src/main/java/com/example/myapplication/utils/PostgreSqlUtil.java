@@ -8,7 +8,7 @@ public class PostgreSqlUtil {
     // 动态参数示例（实际应从配置或输入获取）
     private static final String IP = "rm-cn-qzy481ha70002gvo.rwlb.rds.aliyuncs.com";
     private static final String PORT = "3306";
-    private static final String DB_NAME = "mysql";
+    private static final String DB_NAME = "db_001";
     private static final String USER = "user1";
     private static final String PASSWORD = "341628219Lhl";
 
